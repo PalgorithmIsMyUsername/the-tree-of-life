@@ -75,23 +75,23 @@
 .top-button-anchor{
     width: 30%;
 }
+.video{
+    height: 18rem;
+    width: 32rem;
+    margin: 0.5rem 0;
+}
 html{
     font-family: 'Ubuntu', sans-serif;
 }
 h1{
     text-align: start;
-    font-size: 200%;
-    margin: auto 0;
+    font-size: 2rem;
     color: red;
-    font: serif;
-    margin: auto auto;
+    margin: 0 0;
 }
 h2{
     text-align: center;
     margin: 1rem 0 0;
-}
-body{
-    margin: 2px 4px;
 }
 p{
     margin: 0 0;
@@ -101,20 +101,24 @@ footer{
 }
 #div-main{
     width: 100%;
-    margin: 0 0;
+    position: absolute;
+    top: 5rem;
 }
 #div-top{
+    position: fixed;
+    left: 0;
+    top:0;
+    background-color: white;
     width: 100%;
     margin: 0 0;
-    justify-content: center;
 }
 #div-name-logo{
+    margin: auto 0;
     height: fit-content;
-    width: 65%;
-    margin: 0 0 1rem 0;
+    width: 45%;
 }
 #div-top-options{
-    width: 100%;
+    width: 53%;
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -122,8 +126,8 @@ footer{
     align-content: center;
 }
 #top-logo{
-    margin: auto auto;
-    height:20rem;
+    margin: auto 0;
+    height:6rem;
     width:auto;
 }
 #div-quality-para{
@@ -201,15 +205,19 @@ footer{
 #div-contact-direct{
     width:100%;
 }
+#div-videos{
+    padding:1rem;
+}
+#div-videos-header{
+    margin: auto 0;
+}
+#div-videos-list{
+    width: 100%;
+}
+
 @media screen and (max-width: 1128px) {
-    .top-button-anchor{
-        width: 30%;
-    }
-    .top-button-anchor:hover{
-        width: 33%;
-    }
     .top-option-text{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     #div-quality-para{
         width: 70%;
